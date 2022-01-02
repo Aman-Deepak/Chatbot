@@ -1,0 +1,15 @@
+{% extends 'body.html' %}
+
+{% block content %}
+<h1>CHAT WITH GARRY!!</h1>
+
+<form action="talk" >
+     <input type="submit">
+</form>
+
+<div>
+    {% for message in messages %}
+    <h2> {{message}} </h2>
+    {% endfor %}
+ </div>
+{% endblock %}
