@@ -20,4 +20,4 @@ django-admin
 wikipedia
 SpeechRecognition
 pyttsx3
-PyAudio
+pyaudio
